@@ -1,0 +1,103 @@
+/* @import url("https://fonts.googleaplis.com/css2?family=Lato:wght@100&family=Montserrat:wght@900&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Lora:ital@1&family=Montserrat:wght@900&family=Ubuntu&display=swap");
+:root {
+  --main-bg-color: #2874f0;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: var(--main-bg-color);
+  font-family: "Lato", sans-serif;
+  /* height: 50px; */
+  /* display: flex;
+  align-items: center; */
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+nav ul {
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  padding: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li :hover {
+  font-weight: bolder;
+}
+.search input {
+  width: 30vw;
+  height: 30px;
+  border-radius: 5px;
+  margin: 0 15px 0 46px;
+  padding: 0 12px;
+}
+.search button {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+}
+.container {
+  min-height: calc(100vh - 58px - 15vh);
+}
+.slider {
+  margin: 12px auto;
+  width: 82vw;
+}
+.slider img {
+  width: 82vw;
+  height: 35vw;
+  /* height: 400px; */
+  overflow: hidden;
+}
+.card {
+  max-width: 93vw;
+  margin: 37px auto;
+  font-family: "Lato", sans-serif;
+}
+
+.my-2 {
+  margin: 23px 0;
+}
+.cards {
+  display: flex;
+  overflow: hidden;
+}
+.card-items {
+  width: 16vw;
+  text-align: center;
+  margin: 0 15px;
+}
+.lines {
+  font-family: "Lora", serif;
+}
+.text-center {
+  text-align: center;
+} */
+.card{
+  padding=0;
+  
+}
+/* .card-wrapper{
+  
+} */
+footer {
+  height: 12vh;
+  background-color: var(--main-bg-color);
+  color: white;
+  font-family: "Lato", sans-serif;
+}
